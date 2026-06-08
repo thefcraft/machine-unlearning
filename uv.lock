@@ -1252,6 +1252,7 @@ dependencies = [
     { name = "torch" },
     { name = "tqdm" },
     { name = "transformers" },
+    { name = "trl" },
 ]
 
 [package.metadata]
@@ -1272,15 +1273,13 @@ requires-dist = [
     { name = "torch", specifier = ">=2.12.0" },
     { name = "tqdm", specifier = ">=4.67.3" },
     { name = "transformers", specifier = ">=5.10.1" },
+    { name = "trl", specifier = ">=1.5.1" },
 ]
 
 [[package]]
 name = "machine-unlearning"
 version = "0.1.0"
 source = { virtual = "." }
-dependencies = [
-    { name = "trl" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -1289,7 +1288,6 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "trl", specifier = ">=1.5.1" }]
 
 [package.metadata.requires-dev]
 dev = [

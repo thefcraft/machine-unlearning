@@ -21,4 +21,5 @@ dependencies = [
     "langchain-openai>=1.2.2",
     "python-dotenv>=1.2.2",
     "pandas>=3.0.3",
+    "trl>=1.5.1",
 ]
